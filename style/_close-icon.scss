@@ -1,0 +1,19 @@
+.sidebar{
+    //on mobile version
+    .sidenav__close-icon {
+        position: absolute;
+        visibility: visible;
+        top: 8px;
+        right: 12px;
+        cursor: pointer;
+        font-size: 20px;
+        color: #ddd;      
+  }
+  @media only screen and (min-width: 46.875em){
+  
+    .sidenav__close-icon{
+        visibility: hidden;
+      }
+  
+    }
+}
